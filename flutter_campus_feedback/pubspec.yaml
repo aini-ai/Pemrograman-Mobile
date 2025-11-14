@@ -1,0 +1,25 @@
+name: flutter_campus_feedback
+description: Aplikasi kuesioner kampus untuk mahasiswa UIN STS Jambi
+publish_to: 'none' # proyek lokal
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/flutter_logo.png
+    - assets/uin_sts_logo.png
